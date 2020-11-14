@@ -12,8 +12,10 @@
 * Fixed an issue where maneuver icon was not shown after selecting specific step. ([#2722](https://github.com/mapbox/mapbox-navigation-ios/issues/2722))
 * Fixed an issue which was preventing the ability to customize the bottom banner height. ([#2705](https://github.com/mapbox/mapbox-navigation-ios/pull/2705))
 * Added Ukrainian localization. ([#2735](https://github.com/mapbox/mapbox-navigation-ios/pull/2735)
+* Added a new `NavigationMapView.trafficOverrideRoadClasses` property. For any road class in it all route segments with an `.unknown` traffic congestion level and a matching `MapboxDirections.RoadClass` will be replaced with the `.low` congestion level. ([#2741](https://github.com/mapbox/mapbox-navigation-ios/pull/2741) 
 
 ### User Location
+
 * Created the `UserHaloCourseView` similar to `UserCourseView` for approximate location on iOS 14 during the navigation to represent user location. Allow the switch between `UserHaloCourseView` and `UserCourseView` when precise mode is changed. ([#2664](https://github.com/mapbox/mapbox-navigation-ios/pull/2664))
 
 
